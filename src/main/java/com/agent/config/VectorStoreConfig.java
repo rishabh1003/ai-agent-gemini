@@ -12,13 +12,13 @@ import java.net.URI;
 @Configuration
 public class VectorStoreConfig {
 
-    @Value("${spring.datasource.url}")
+    @Value("${spring.vectordb.datasource.url}")
     private String datasourceUrl;
 
-    @Value("${spring.datasource.username}")
+    @Value("${spring.vectordb.datasource.username}")
     private String username;
 
-    @Value("${spring.datasource.password}")
+    @Value("${spring.vectordb.datasource.password}")
     private String password;
 
     @Bean
