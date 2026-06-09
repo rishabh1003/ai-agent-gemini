@@ -31,6 +31,7 @@ public class AgentConfig {
                 .modelName(modelName)
                 .temperature(0.7)
                 .logRequestsAndResponses(true)
+                .maxRetries(0)
                 .build();
     }
 
